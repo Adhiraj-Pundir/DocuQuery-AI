@@ -12,7 +12,7 @@ from document_processor import process_pdf_from_url
 from vector_search import create_and_embed_index, get_relevant_chunks
 from llm_handler import get_answer_from_llm
 
-# --- API Setup ---
+
 app = FastAPI(
     title="Intelligent Query-Retrieval System",
     description="A system to answer questions about documents using LLMs and Vector Search."
