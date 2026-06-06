@@ -6,7 +6,7 @@ from pinecone import Pinecone
 
 load_dotenv()
 
-# --- Initialize Clients ---
+
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 
